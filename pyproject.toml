@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "prosigliere"
+version = "0.1.0"
+description = ""
+authors = ["Christian <cyapurf@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11,<=3.13"
+dspy = "^3.0.4"
+openai = "^2.8.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
