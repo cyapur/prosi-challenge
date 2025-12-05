@@ -144,8 +144,7 @@ At runtime, if a movement’s `body_parts` intersect an injured region, the syst
 - Move **down the skill ladder** for that pattern (if a safer movement exists), or
 - Swap to an **alternative movement** from the appropriate substitution pool (e.g. Thruster -> Front Squat) when the entire pattern ladder is contraindicated.
 
-Whether this extra complexity is worth it is a product decision: many physicians will recommend full rest for acute injuries, but in my experience most of CrossFit members train without significant injuries (and if they have minor issues, usually the won't even scale until they have an acute injury and the pysician send them to full rest).
-
+Whether this extra complexity is worth it is a product decision: many physicians will recommend full rest for acute injuries, but in my experience most CrossFit members train without significant injuries, and if they have minor issues, they usually will not even scale until they have an acute injury and a physician sends them to full rest.
 
 ## Technical (future) improvements:
 - **Stronger data contracts**: Add a WOD `pydantic` dataclass for robust JSON parsing and schema validation between agents.
